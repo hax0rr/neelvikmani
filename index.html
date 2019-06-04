@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neel Vikmani</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/NV.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<style type="text/css">
+		*{
+			font-family: Helvetica;
+		}
+		.navbar-nav li{
+			margin-left: 50px;
+		}
+		.cl-777{
+			color: #777;
+		}
+		.nav-item a{
+			letter-spacing: 1px;
+			transition: 0.5s ease;
+			
+		}
+		.nav-item a:hover{
+			letter-spacing: 2px;
+			color: #270680;
+		}
+		.contact-btn{
+			border-radius: 20px;
+			box-shadow: 0 2px 10px #b4b4b4;
+		}
+		.pl-12{
+			padding-left: 120px;
+		}
+		.pl-8{
+			padding-left: 80px;
+		}
+		.pr-6{
+			padding-right: 60px;
+		}
+		.pl-6{
+			padding-left: 60px;
+		}
+		.mt-6{
+			margin-top: 60px;
+		}
+		.mr-8{
+			margin-right: 80px;
+		}
+		.pt-6{
+			padding-top: 60px;
+		}
+		.mb-5{
+			margin-bottom: 50px;
+		}
+		.btn-red{
+			transition: 0.5s ease;
+			background-color: #e50101;
+		}
+		.btn-red:hover{
+			letter-spacing: 1px;
+			background-color: #c50101;
+		}
+		footer{
+			background-color: red;
+			color: white;
+		}
+		svg{
+			position: absolute;
+		}
+		.color-bl{
+			background-color: #5738AC;
+			color:white;
+		}
+		.back-to-top {
+		    cursor: pointer;
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    display:none;
+		    border-radius: 50px;
+		}
+		.back-to-top:hover {
+		    background-color:#57387e;
+		    color: white;
+		}
+		a:hover{
+			cursor: pointer;
+		}
+		#sm-img{
+			display: none;
+		}
+		
+		@media only screen and (max-width: 1092px){
+			*{
+				/*font-size: 15px;*/
+			}
+			.row-pad{
+				
+				padding-right: 20px;
+				padding-left:20px;
+			}
+			svg{
+				display: none;
+			}
+			.pl-12{
+				padding-left:40px;
+				margin-top: 0px;
+			}
+			.pr-del{
+				padding-right: 15px;
+			}
+			p.mt-6{
+				margin-top: 30px;
+			}
+			.img-m{
+				width: 320px;
+			}
+			#experience, #projects{
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+		}
+		@media only screen and (max-width: 768px){
+			#about-img, #contact-img, #md-img{
+				display: none;
+			}
+			#sm-img{
+				/*text-align: center;*/
+				margin: 0 auto;
+				display: block;
+				margin-bottom: 30px;
+			}
+		}	
+	</style>
+</head>
+<body>
+	<header id="header" class="container mt-3 mb-3">
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand">
+				<img class="img-responsive" src="assets/images/NV.png" width="50px;">
+			</a>
+			<!-- Toggler/collapsibe Button -->
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+		    
+
+		    <!-- Navbar links -->
+			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+			    	<li id="nav-expo" class="nav-item">
+			        	<a class="nav-link cl-777">Experience</a>
+			    	</li>
+			      	<li id="nav-proj" class="nav-item">
+			        	<a class="nav-link cl-777">Projects</a>
+			      	</li>
+			      	<li id="nav-contact" class="nav-item">
+			        	<a class="nav-link bg-red text-white pr-3 pl-3 btn-red contact-btn">Contact</a>
+			      	</li>
+			    </ul>
+			</div> 
+		</nav>
+	</header>
+
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" viewBox="0 0 586.958 711.732">
+	  	<defs>
+		    <filter id="Path_1" x="0" y="0" width="586.958" height="711.732" filterUnits="userSpaceOnUse">
+		      <feOffset dy="5" input="SourceAlpha"/>
+		      <feGaussianBlur stdDeviation="5" result="blur"/>
+		      <feFlood flood-color="#5738ac"/>
+		      <feComposite operator="in" in2="blur"/>
+		      <feComposite in="SourceGraphic"/>
+		    </filter>
+	  	</defs>
+	  	<g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+	    	<path id="Path_1-2" data-name="Path 1" d="M219.224-97.033C345.6-25.641,495.464,137.047,486.656,295.915S138.14,546.947,138.14,546.947,41.891,571.324,14.707,571.324c-105.757,0-92.58-263.372-65.622-385.621S92.851-168.425,219.224-97.033Z" transform="translate(-250, 150)" fill="#5738ac"/>
+	  	</g>
+	</svg>
+
+	<div class="mt-5 mb-4 container">
+		<div class="row  row-pad pl-6 pr-6">
+			<div id="sm-img" class="col-md-6">
+				<img  class="img-responsive img-m" src="assets/images/coding.png" width="400px;">
+			</div>
+			<div class="col-md-6 pl-12">
+				<p class=" mb-1 cl-777 mt-2">Hello, my name is</p>
+				<h1 class="pt-0" style="color: #5738Ac">Neel Vikmani</h1>
+				<h3 class="cl-777">Software Engineer</h3>
+				<h5 class="cl-777 pb-0 mb-0">I love building high quality software solutions that provides great value.</h5>
+				<h6 class="cl-777 mt-3 mb-3">Have an idea or project in mind?</h6>
+				<button class="nav-link text-white pr-3 pl-3 btn-red btn contact-btn">Get in touch <i class="far fa-paper-plane"></i></button>
+
+			</div>
+			<div id="md-img" class="col-md-6">
+				<img  class="img-responsive img-m" src="assets/images/coding.png" width="400px;">
+			</div>
+		</div>
+	</div>
+
+	<!-- About Section -->
+	<div class="mt-6 mb-4 container">
+		<h2 class="text-center cl-777">About Me</h2>
+		<div class="row row-pad mt-4 pl-6 pr-6">
+			<div class="col-md-6">
+				<img id="about-img" class="img-m img-responsive" src="assets/images/coding.png" width="400px;">
+			</div>
+			<div class="col-md-6 pr-6 pr-del">
+				<p class="cl-777">I completed my B.Tech. in Computer Engineering from K.J. 
+				Somaiya College of Engineering. Right from the time before my engineering, I was 
+				very passionate about building various kinds of softwares that could provide value. Eventually, I started  developing applications for web, then I started exploring various technologies and making projects to actually implement them.</p><p class="cl-777 mr-6">I believe that technology is disrupting almost every industry today and is making people's life easier. I always try to learn new things and keep myself updated.</p>
+				<p class="cl-777 mr-6">Apart from computers and technology, I also have great interest in backpacking, sports, trekking and travelling.</p>
+				</p>
+				
+			</div>
+		</div>
+
+	</div>
+	<!-- Experience Section -->
+	<div id="experience" class="mt-6 mb-4 container pl-6 pr-6">
+		<h2 class="text-center cl-777 mb-5">Experience</h2>
+		<div class="cl-777 row-pad pl-6 pr-6">
+			<h4 class="d-inline font-weight-bold">IdealVillage | Web Developer Intern</h4>
+			<p class="d-inline pl-1">(Feb, 2018 - April, 2018)</p>
+			<p class="mb-0">My task was based on full-stack web development and building a web application for managing users, content and advertisement-based video programs. The idea was similar to what we see in News Channels,(i.e. video in center, advertisements in sidebar and text marquee at bottom). All images and videos were directly uploaded to cloud, thus reducing response time and load of database server. </p>
+			<p>Development was done in PHP, jQuery and Bootstrap with some snippets of AJAX.</p>
+		</div>
+	</div>
+	<!-- Projects Section -->
+	<div id="projects" class="mt-6 mb-4 pl-6 pr-6 container">
+		<h2 class="text-center cl-777 mb-5">Key Projects</h2>
+		<div class="row row-pad mt-4 pl-6 pr-6">
+			<div class="col-md-6">
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<p class="text-center cl-777 font-weight-bold">
+						College Recommendation and Intercollege Events Social Network
+					</p>
+					<div class=" proj-desc cl-777">
+						<p>
+							- Implemented Random Forest Algorithm for recommending engineering colleges to users based on their marks and other details.</p>
+						<p>
+							- Performed scraping of colleges information from college websites and DTE website using python.</p>
+						<p>
+							- Also developed an intercollege event management application for facilitating student’s access to information about any college’s events, through a single mobile application.</p>
+						<p>
+							Technologies used - Flutter, Firebase Firestore and Google Cloud Platform
+						</p>
+					</div>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<p class="text-center cl-777 font-weight-bold">
+						Library Management System for Windows
+					</p>
+					<div class=" proj-desc cl-777">
+						<p>
+							- Developed a Library Management System where librarian can add, update and delete book and student records, issue books to student and send them notifications for return.</p>
+						<p>
+							- Librarian can also view records of books issued to any student, book's remaining stock and can send email to student.</p>
+						<p>
+							Technology used - C#.NET
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<p class="text-center cl-777 font-weight-bold">
+						Camping website
+					</p>
+					<div class=" proj-desc cl-777">
+						<p>
+							- Developed a website where user can view all campgrounds, signup and login to their accounts and provide their comments and also add a new campground.
+						</p>
+						<p>
+							- Created a RESTful API for performing CRUD operations on campground details and comments.
+						</p>
+						<p>
+							Technology used - Node.js, Express.js, MongoDB and Bootstrap.
+						</p>
+					</div>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<p class="text-center cl-777 font-weight-bold">
+						Patatap Website Clone
+					</p>
+					<div class=" proj-desc cl-777">
+						<p>
+							- Made a clone of patatap.com website which does animation and playback sounds on key press.</p>
+						<p>
+							- Implemented using Paper.js and howler.js libraries for animation and sound effects.</p>
+					</div>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<p class="text-center cl-777 font-weight-bold">
+						Client Addressbook Management
+					</p>
+					<div class=" proj-desc cl-777">
+						<p>
+							- Developed a website where user can log in and manage their clients information, update insert or delete any client details.
+						</p>
+						
+						<p>
+							Technologies used - PHP, MySQL and Bootstrap.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact section -->
+	<div id="conts" class="mt-6 mb-4 container">
+		<h2 id="contact" class="text-center cl-777">Contact</h2>
+		<div class="row row-pad mt-4 pl-6">
+			<div class="col-md-6">
+				<img id="contact-img" class="img-m img-responsive" src="assets/images/contact.png" width="380px;">
+			</div>
+			<div class="col-md-6">
+				
+				<h3 class="cl-777 mb-4">Neel Vikmani</h3>
+				<p>
+					<i class="fa fa-phone" aria-hidden="true"></i> 
+					<a href="tel:+91 8879929192" class="cl-777">
+						+91 8879929192
+					</a>
+				</p>
+				<p>
+					<i class="fa fa-envelope" aria-hidden="true"></i> 
+					<a href="mailto:neel.vikmani@gmail.com" class="cl-777">
+						neel.vikmani@gmail.com
+					</a>
+				</p>
+				<p>
+					<i class="fab fa-linkedin"></i> 
+					<a target="_blank" href="https://www.linkedin.com/in/neelvikmani/" class="cl-777">
+						https://www.linkedin.com/in/neelvikmani/
+					</a>
+				</p>
+				<p>
+					<i class="fab fa-github" aria-hidden="true"></i> 
+					<a target="_blank" href="https://github.com/hax0rr" class="cl-777">
+						https://github.com/hax0rr
+					</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+	<footer class="color-bl">
+		<div class="container">
+			<p class="m-0 pl-8 pt-3 pb-3">Crafted with <i class="fas fa-heart"></i> by Neel Vikmani</p>
+		</div>
+	</footer>
+	<!-- Go to top btn -->
+	<a href="" id="back-to-top" class="btn btn-md back-to-top color-bl" role="button" title="Go to top" data-toggle="tooltip" data-placement="left"><i class="far fa-hand-point-up"></i></a>
+
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+	    	$(window).scroll(function () {	
+	            if ($(this).scrollTop() > 240) {
+	                $('#back-to-top').fadeIn();
+	            } else {
+	                $('#back-to-top').fadeOut();
+	            }
+	        });
+	        // scroll body to 0px on click
+	        $('#back-to-top').click(function () {
+	            $('body,html').animate({
+	                scrollTop: 0
+	            }, 800);
+	            return false;
+	        });
+		});
+		$("#nav-contact").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#contact").offset().top
+		    }, 600);
+		});
+		$("#nav-expo").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#experience").offset().top
+		    }, 600);
+		});
+		$("#nav-proj").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#projects").offset().top
+		    }, 600);
+		});
+
+	</script>
+</body>
+</html>
