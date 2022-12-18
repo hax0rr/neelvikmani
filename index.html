@@ -19,6 +19,9 @@
 		.cl-777{
 			color: #777;
 		}
+		.cl-3{
+			color: #333;
+		}
 		.nav-item a{
 			letter-spacing: 1px;
 			transition: 0.5s ease;
@@ -49,6 +52,9 @@
 		}
 		.mr-8{
 			margin-right: 80px;
+		}
+		.pt-2{
+			padding-top: 20px;
 		}
 		.pt-6{
 			padding-top: 60px;
@@ -92,6 +98,9 @@
 		}
 		#sm-img{
 			display: none;
+		}
+		.nav-item {
+				color:#333;
 		}
 		
 		@media only screen and (max-width: 1092px){
@@ -154,20 +163,23 @@
 			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 			    	<li id="nav-expo" class="nav-item">
-			        	<a class="nav-link cl-777">Experience</a>
+			        	<a class="nav-link">Experience</a>
 			    	</li>
 			      	<li id="nav-proj" class="nav-item">
-			        	<a class="nav-link cl-777">Projects</a>
+			        	<a class="nav-link">Projects</a>
+			      	</li>
+			      	<li id="nav-blogs" class="nav-item">
+			        	<a class="nav-link cl-3" href="https://blog.neelvikmani.com" target=”_blank”>Blogs</a>
 			      	</li>
 			      	<li id="nav-contact" class="nav-item">
 			        	<a class="nav-link bg-red text-white pr-3 pl-3 btn-red contact-btn">Contact</a>
-			      	</li>
+			      	</li>			 
 			    </ul>
 			</div> 
 		</nav>
 	</header>
 
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" viewBox="0 0 586.958 711.732">
+	<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="400" viewBox="0 0 586.958 711.732">
 	  	<defs>
 		    <filter id="Path_1" x="0" y="0" width="586.958" height="711.732" filterUnits="userSpaceOnUse">
 		      <feOffset dy="5" input="SourceAlpha"/>
@@ -187,18 +199,12 @@
 			<div id="sm-img" class="col-md-6">
 				<img  class="img-responsive img-m" src="assets/images/coding.png" width="400px;">
 			</div>
-			<div class=" pl-12">
-				<p class=" mb-1 cl-777 mt-2">Hello, my name is</p>
+			<div class="pl-12">
+				<p class=" mb-1 cl-777 mt-2">Hello, I am</p>
 				<h1 class="pt-0" style="color: #5738Ac">Neel Vikmani</h1>
 				<h3 class="cl-777">Software Engineer</h3>
-				<h5 class="cl-777 pb-0 mb-0">I love building high quality software solutions that provides great value.</h5>
-<!-- 				<h6 class="cl-777 mt-3 mb-3">Have an idea or project in mind?</h6>
-				<button class="nav-link text-white pr-3 pl-3 btn-red btn contact-btn">Get in touch <i class="far fa-paper-plane"></i></button> -->
-
+				<h5 class="cl-777 pb-0 mb-0">I love building high quality software solutions that provides great value at scale.</h5>
 			</div>
-			<!-- <div id="md-img" class="col-md-6">
-				<img  class="img-responsive img-m" src="assets/images/coding.png" width="400px;">
-			</div> -->
 		</div>
 	</div>
 
@@ -209,33 +215,39 @@
 			<div class="col-md-6 pl-6">
 				<img id="about-img" class="img-m img-responsive" src="assets/images/coding.png" width="400px;">
 			</div>
-			<div class="col-md-6 pr-6 pr-del">
-				<p class="cl-777">I completed my B.Tech. in Computer Engineering from K.J. 
-				Somaiya College of Engineering. Right from the time before my engineering, I was 
-				very passionate about building various kinds of softwares that could provide value. Eventually, I started  developing applications for web, then I started exploring various technologies and making projects to actually implement them.</p><p class="cl-777 mr-6">I believe that technology is disrupting almost every industry today and is making people's life easier. I always try to learn new things and keep myself updated.</p>
-				<p class="cl-777 mr-6">Apart from computers and technology, I also have great interest in backpacking, sports, trekking and travelling.</p>
-				</p>
-				
+			<div class="col-md-6 pr-6 pr-del cl-777">
+				<p>I am a Software Engineer since 2019. Right from my college days, I was 
+				very passionate about building various kinds of softwares. Initially, I started developing web applications during my college days, then eventually started with other technologies like mobile development and then tinkering around various stuffs by implementing side projects.</p><p>Post my graduation, I have been working as a Software Engineer, mostly as a backend engineer building software systems at scale. 
+
+				<p>Apart from computers and technology, I also have great interest in backpacking, blogging, sports, trekking and travelling. I am also currently involved in Mixed Martial Arts(MMA)</p>
 			</div>
 		</div>
+	</h2>
 
 	</div>
 	<!-- Experience Section -->
 	<div id="experience" class="mt-6 mb-4 container pl-6 pr-6">
 		<h2 class="text-center cl-777 mb-5">Experience</h2>
 		<div class="cl-777 row-pad pl-6 pr-6">
+			<h4 class="d-inline font-weight-bold">Gojek | Software Engineer ||</h4>
+			<p class="d-inline pl-1">(Jan, 2022 - Present)</p>
+			<li class="mb-0">I am part of Gojek's Customer Platform / Incentives Team</li>
+			<li>Technologies used: Go, Aerospike, Spanner, Kafka, Redis, GCP</li>
+		</div>
+		<br/>
+		<div class="cl-777 row-pad pl-6 pr-6">
 			<h4 class="d-inline font-weight-bold">PharmEasy | Software Engineer</h4>
-			<p class="d-inline pl-1">(July, 2019 - Present)</p>
-			<li class="mb-0">I am part of Pharmeasy catalog tech team, which maintains the core product related data.
+			<p class="d-inline pl-1">(July, 2019 - Dec, 2021)</p>
+			<li class="mb-0">I was part of Pharmeasy catalog tech team, which maintains the core product related data.
 			<li class="mb-0">Worked on major critical aspects of the product like availability, pricing and substitute options.</li>
 			<li class="mb-0">Initially worked on single monolith backend based on Ruby on Rails, and later activey involved in splitting the monolith into multiple microservices and taking end to end ownership of implementing some major features like Listing-level availability, migrating APIs to new services,etc.</li>
-			<li class="mb-0">Developed complete Substitute micro-service from scratch using Spring reactive programming and MongoDB.</li>
-			<li class="mb-0">Worked on rich-content project’s front-end, developed UI components and backend interaction using React, Redux, Node, Express and CSS.</li>
 			<li class="mb-0">Identified various areas of improvements in the monolith system and worked on solutions, resulting in reduced cache and database calls, elasticsearch reindexing and overall system processing time.</li>
-			<li class="mb-0">Interacting with cross-functional teams for understanding dependencies and providing assistance.
+			<li class="mb-0">Developed complete "substitute-service" micro-service from scratch using Spring reactive programming and MongoDB.</li>
+			<li class="mb-0">Worked on a separate rich-content project’s front-end, developed UI components and backend interaction using React, Redux, Node, Express and CSS.</li>
+			<li class="mb-0">Interacted with cross-functional teams for understanding dependencies and providing assistance.
 			Guided juniors, proactively created documentation space in Confluence and maintained various documents for overall understanding of catalog systems and easy onboarding of any new joiner. </li>
 			</li>
-			<li>Technologies used: Java, Ruby on Rails, Spring Webflux, NodeJs, ReactJs, ExpressJS, Serverless, MySQL, MongoDB, Kafka, AWS</li>
+			<li>Technologies used: Java, Ruby on Rails, Spring Webflux, NodeJs, ReactJs, ExpressJS, Redis, MySQL, MongoDB, Kafka, AWS</li>
 		</div>
 		<br/>
 		<div class="cl-777 row-pad pl-6 pr-6">
@@ -338,21 +350,21 @@
 				
 				<h3 class="cl-777 mb-4">Neel Vikmani</h3>
 				<p>
-					<i class="fa fa-phone" aria-hidden="true"></i> 
-					<a href="tel:+91 8879929192" class="cl-777">
-						+91 8879929192
-					</a>
-				</p>
-				<p>
-					<i class="fa fa-envelope" aria-hidden="true"></i> 
-					<a href="mailto:neel.vikmani@gmail.com" class="cl-777">
-						neel.vikmani@gmail.com
+					<i class="fab fa-twitter" aria-hidden="true"></i> 
+					<a target="_blank" href="https://twitter.com/neel_vikmani" class="cl-777">
+						https://twitter.com/neel_vikmani
 					</a>
 				</p>
 				<p>
 					<i class="fab fa-linkedin"></i> 
 					<a target="_blank" href="https://www.linkedin.com/in/neelvikmani/" class="cl-777">
 						https://www.linkedin.com/in/neelvikmani/
+					</a>
+				</p>
+				<p>
+					<i class="fa fa-envelope" aria-hidden="true"></i> 
+					<a href="mailto:neel.vikmani@gmail.com" class="cl-777">
+						neel.vikmani@gmail.com
 					</a>
 				</p>
 				<p>
