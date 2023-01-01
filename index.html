@@ -16,11 +16,14 @@
 		.navbar-nav li{
 			margin-left: 50px;
 		}
-		.cl-777{
-			color: #777;
+		.cl-555{
+			color: #555;
 		}
 		.cl-3{
 			color: #333;
+		}
+		.cl-4{
+			color: #444;
 		}
 		.nav-item a{
 			letter-spacing: 1px;
@@ -62,6 +65,9 @@
 		.mb-5{
 			margin-bottom: 50px;
 		}
+		p, li{
+			font-size: 18px;
+		}
 		.btn-red{
 			transition: 0.5s ease;
 			background-color: #e50101;
@@ -102,7 +108,7 @@
 		.nav-item {
 				color:#333;
 		}
-		
+
 		@media only screen and (max-width: 1092px){
 			*{
 				/*font-size: 15px;*/
@@ -148,11 +154,9 @@
 	</style>
 </head>
 <body>
-	<header id="header" class="container mt-3 mb-3">
+	<header id="header" class="container mt-3 mb-3 p-0 cl-4">
 		<nav class="navbar navbar-expand-md">
-			<a class="navbar-brand">
-				<img class="img-responsive" src="assets/images/NV.png" width="50px;">
-			</a>
+			<h1>Neel Vikmani</h1>
 			<!-- Toggler/collapsibe Button -->
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    	<span class="navbar-toggler-icon"></span>
@@ -195,47 +199,45 @@
 	</svg>
 
 	<div class="mt-5 mb-4 container">
-		<div class="row  row-pad pl-6 pr-6">
+		<div class="row row-pad">
 			<div id="sm-img" class="col-md-6">
-				<img  class="img-responsive img-m" src="assets/images/coding.png" width="400px;">
+				<img  class="img-responsive img-m" src="assets/images/coding4.png" width="400px;">
 			</div>
-			<div class="pl-12">
-				<p class=" mb-1 cl-777 mt-2">Hello, I am</p>
-				<h1 class="pt-0" style="color: #5738Ac">Neel Vikmani</h1>
-				<h3 class="cl-777">Software Engineer</h3>
-				<h5 class="cl-777 pb-0 mb-0">I love building high quality software solutions that provides great value at scale.</h5>
-			</div>
+
 		</div>
 	</div>
 
 	<!-- About Section -->
 	<div class="mt-6 mb-4 container">
-		<!-- <h2 class="text-center cl-777">About Me</h2> -->
-		<div class="row row-pad mt-4 pl-6 pr-6">
-			<div class="col-md-6 pl-6">
-				<img id="about-img" class="img-m img-responsive" src="assets/images/coding.png" width="400px;">
-			</div>
-			<div class="col-md-6 pr-6 pr-del cl-777">
-				<p>I am a Software Engineer since 2019. Right from my college days, I was 
-				very passionate about building various kinds of softwares. Initially, I started developing web applications during my college days, then eventually started with other technologies like mobile development and then tinkering around various stuffs by implementing side projects.</p><p>Post my graduation, I have been working as a Software Engineer, mostly as a backend engineer building software systems at scale. 
+		<div class="row row-pad mt-4">
+			<div class="col-md-7 cl-555">
+				<!-- <div class=""> -->
+				<h1 class="mb-1 mt-2 cl-4"><strong>Hey there 👋, I am <span style="background-color: #ffee44">Neel</span></strong></h1>
+				<h2 class="mb-3" style="color: #5738BE"><strong>Software Engineer👨‍💻 | Tech Blogger✍️</strong></h2>
+				<h4>I love building high quality software solutions that provides great value at scale</h4> </br>
+				<p>I am a Software Engineer since 2019. Right from my initial college days, I have been developing web applications, then eventually started with other technologies tinkering around various stuffs by implementing side projects.</p><p>Post my graduation, I have been working as a Software Engineer, mostly on building backend systems at scale.</p>
+				<p>I also write technical blogs related to various topics in Software Engineering, do subsribe to my <a target="_blank" href="https://blog.neelvikmani.com/newsletter">newsletter</a> if you want to get notified about my next blog 😄</p>
 
-				<p>Apart from computers and technology, I also have great interest in backpacking, blogging, sports, trekking and travelling. I am also currently involved in Mixed Martial Arts(MMA)</p>
+				<p>Apart from computers and technology, I also have great interest in blogging, backpacking, sports 🏸🏓, trekking 🏔 and travelling ✈️. I am also currently involved in Mixed Martial Arts(MMA) 🥷</p>
+			</div>
+			<div class="col-md-5 pl-6">
+				<img id="about-img" class="img-m img-responsive" src="assets/images/myimg.png" width="400px;">
 			</div>
 		</div>
 	</h2>
 
 	</div>
 	<!-- Experience Section -->
-	<div id="experience" class="mt-6 mb-4 container pl-6 pr-6">
-		<h2 class="text-center cl-777 mb-5">Experience</h2>
-		<div class="cl-777 row-pad pl-6 pr-6">
+	<div id="experience" class="mt-6 mb-4 container">
+		<h2 class="text-center cl-4 mb-5">Experience</h2>
+		<div class="cl-555 row-pad">
 			<h4 class="d-inline font-weight-bold">Gojek | Software Engineer ||</h4>
 			<p class="d-inline pl-1">(Jan, 2022 - Present)</p>
 			<li class="mb-0">I am part of Gojek's Customer Platform / Incentives Team</li>
-			<li>Technologies used: Go, Aerospike, Spanner, Kafka, Redis, GCP</li>
+			<li><strong>Technologies used:</strong> Go, Aerospike, Spanner, Kafka, Redis, GCP</li>
 		</div>
 		<br/>
-		<div class="cl-777 row-pad pl-6 pr-6">
+		<div class="cl-555 row-pad">
 			<h4 class="d-inline font-weight-bold">PharmEasy | Software Engineer</h4>
 			<p class="d-inline pl-1">(July, 2019 - Dec, 2021)</p>
 			<li class="mb-0">I was part of Pharmeasy catalog tech team, which maintains the core product related data.
@@ -247,26 +249,26 @@
 			<li class="mb-0">Interacted with cross-functional teams for understanding dependencies and providing assistance.
 			Guided juniors, proactively created documentation space in Confluence and maintained various documents for overall understanding of catalog systems and easy onboarding of any new joiner. </li>
 			</li>
-			<li>Technologies used: Java, Ruby on Rails, Spring Webflux, NodeJs, ReactJs, ExpressJS, Redis, MySQL, MongoDB, Kafka, AWS</li>
+			<li><strong>Technologies used:</strong> Java, Ruby on Rails, Spring Webflux, NodeJs, ReactJs, ExpressJS, Redis, MySQL, MongoDB, Kafka, AWS</li>
 		</div>
 		<br/>
-		<div class="cl-777 row-pad pl-6 pr-6">
+		<div class="cl-555 row-pad">
 			<h4 class="d-inline font-weight-bold">IdealVillage | Web Developer Intern</h4>
 			<p class="d-inline pl-1">(Feb, 2018 - April, 2018)</p>
 			<li class="mb-0">My task was based on full-stack web development and building a web application for managing users, content and advertisement-based video programs. The idea was similar to what we see in News Channels,(i.e. video in center, advertisements in sidebar and text marquee at bottom). All images and videos were directly uploaded to cloud, thus reducing response time and load of database server. </li>
-			<li>Development was done in PHP, jQuery and Bootstrap with some snippets of AJAX.</li>
+			<li><strong>Technologies used:</strong>PHP, jQuery and Bootstrap with some snippets of AJAX.</li>
 		</div>
 	</div>
 	<!-- Projects Section -->
-	<div id="projects" class="mt-6 mb-4 pl-6 pr-6 container">
-		<h2 class="text-center cl-777 mb-5">Key Projects</h2>
-		<div class="row row-pad mt-4 pl-6 pr-6">
+	<div id="projects" class="mt-6 mb-4 container">
+		<h2 class="text-center cl-4 mb-5">Key Projects</h2>
+		<div class="row row-pad mt-4">
 			<div class="col-md-6">
 				<div class="shadow p-3 mb-5 bg-white rounded">
-					<p class="text-center cl-777 font-weight-bold">
+					<p class="text-center cl-555 font-weight-bold">
 						College Recommendation and Intercollege Events Social Network
 					</p>
-					<div class=" proj-desc cl-777">
+					<div class=" proj-desc cl-555">
 						<p>
 							- Implemented Random Forest Algorithm for recommending engineering colleges to users based on their marks and other details.</p>
 						<p>
@@ -279,10 +281,10 @@
 					</div>
 				</div>
 				<div class="shadow p-3 mb-5 bg-white rounded">
-					<p class="text-center cl-777 font-weight-bold">
+					<p class="text-center cl-555 font-weight-bold">
 						Library Management System for Windows
 					</p>
-					<div class=" proj-desc cl-777">
+					<div class=" proj-desc cl-555">
 						<p>
 							- Developed a Library Management System where librarian can add, update and delete book and student records, issue books to student and send them notifications for return.</p>
 						<p>
@@ -296,10 +298,10 @@
 			
 			<div class="col-md-6">
 				<div class="shadow p-3 mb-5 bg-white rounded">
-					<p class="text-center cl-777 font-weight-bold">
+					<p class="text-center cl-555 font-weight-bold">
 						Camping website
 					</p>
-					<div class=" proj-desc cl-777">
+					<div class=" proj-desc cl-555">
 						<p>
 							- Developed a website where user can view all campgrounds, signup and login to their accounts and provide their comments and also add a new campground.
 						</p>
@@ -312,10 +314,10 @@
 					</div>
 				</div>
 				<div class="shadow p-3 mb-5 bg-white rounded">
-					<p class="text-center cl-777 font-weight-bold">
+					<p class="text-center cl-555 font-weight-bold">
 						Patatap Website Clone
 					</p>
-					<div class=" proj-desc cl-777">
+					<div class=" proj-desc cl-555">
 						<p>
 							- Made a clone of patatap.com website which does animation and playback sounds on key press.</p>
 						<p>
@@ -323,10 +325,10 @@
 					</div>
 				</div>
 				<div class="shadow p-3 mb-5 bg-white rounded">
-					<p class="text-center cl-777 font-weight-bold">
+					<p class="text-center cl-555 font-weight-bold">
 						Client Addressbook Management
 					</p>
-					<div class=" proj-desc cl-777">
+					<div class=" proj-desc cl-555">
 						<p>
 							- Developed a website where user can log in and manage their clients information, update insert or delete any client details.
 						</p>
@@ -341,35 +343,35 @@
 	</div>
 	<!-- Contact section -->
 	<div id="conts" class="mt-6 mb-4 container">
-		<h2 id="contact" class="text-center cl-777">Contact</h2>
-		<div class="row row-pad mt-4 pl-6">
+		<h2 id="contact" class="text-center cl-4">Contact</h2>
+		<div class="row row-pad mt-4">
 			<div class="col-md-6">
 				<img id="contact-img" class="img-m img-responsive" src="assets/images/contact.png" width="380px;">
 			</div>
 			<div class="col-md-6">
 				
-				<h3 class="cl-777 mb-4">Neel Vikmani</h3>
+				<h3 class="cl-555 mb-4">Neel Vikmani</h3>
 				<p>
 					<i class="fab fa-twitter" aria-hidden="true"></i> 
-					<a target="_blank" href="https://twitter.com/neel_vikmani" class="cl-777">
+					<a target="_blank" href="https://twitter.com/neel_vikmani" class="cl-555">
 						https://twitter.com/neel_vikmani
 					</a>
 				</p>
 				<p>
 					<i class="fab fa-linkedin"></i> 
-					<a target="_blank" href="https://www.linkedin.com/in/neelvikmani/" class="cl-777">
+					<a target="_blank" href="https://www.linkedin.com/in/neelvikmani/" class="cl-555">
 						https://www.linkedin.com/in/neelvikmani/
 					</a>
 				</p>
 				<p>
 					<i class="fa fa-envelope" aria-hidden="true"></i> 
-					<a href="mailto:neel.vikmani@gmail.com" class="cl-777">
+					<a href="mailto:neel.vikmani@gmail.com" class="cl-555">
 						neel.vikmani@gmail.com
 					</a>
 				</p>
 				<p>
 					<i class="fab fa-github" aria-hidden="true"></i> 
-					<a target="_blank" href="https://github.com/hax0rr" class="cl-777">
+					<a target="_blank" href="https://github.com/hax0rr" class="cl-555">
 						https://github.com/hax0rr
 					</a>
 				</p>
@@ -379,7 +381,7 @@
 	</div>
 	<footer class="color-bl">
 		<div class="container">
-			<p class="m-0 pl-8 pt-3 pb-3">Crafted with <i class="fas fa-heart"></i> by Neel Vikmani</p>
+			<p class="m-0 pt-3 pb-3">Crafted with <i class="fas fa-heart"></i> by Neel Vikmani</p>
 		</div>
 	</footer>
 	<!-- Go to top btn -->
